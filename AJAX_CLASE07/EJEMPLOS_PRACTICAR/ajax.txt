@@ -1,0 +1,12 @@
+Usando AJAX: Un simple ejemplo con PHP y jQuery.
+
+Descrito de una manera muy resumida, AJAX es una tecnología que nos permite realizar acciones en una página web que necesiten respuesta del servidor sin recargarla. Con ello conseguimos que nuestra web sea dinámica y por tanto obtener un diseño más atractivo. Algunos ejemplos de lo que podemos hacer:
+Un enlace que compruebe si un valor existe ya en una base de datos.
+Completar un campo de texto de búsqueda con valores sugeridos por nuestra web.
+Un chat web
+etc.
+En este artículo vamos a describir como realizar una sencilla llamada AJAX a una fichero externo que ejecutará un proceso (una suma entre dos valores enviados mediante POST) y nos devolverá la salida correspondiente apoyándonos con la librería jQuery, que aunque no es necesario su uso, lo haremos sobre ella para aprovechar la potencia que nos proporciona. Se podría decir que es el típico Hola mundo en AJAX.
+
+El código se compone de dos archivos: un archivo donde mostraremos los formularios con datos de entrada y otro con el archivo de procesamiento.
+
+A continuación mostramos el código del fichero de entrada de datos (habrá que tener cuidado con escribir correctamente la ruta a la librería jQuery):
